@@ -2,12 +2,6 @@
 
 - This is basically a clone of the scratch site by MIT it is a site where you can create your own custom games and animations.
 
-# How it works ?
-
-- A lot of components as seen are first of all rendered in the sidebar based on different key value pairs.
-- There is a function called `fetchComponents` in place that is responsible for taking in a particular key and returning a component along with some default values which are then rendered in the sidebar
-- The sidebar is basically made up of **different dragable components** and I am freely able to drag any of these components into another dragable area which is the mid area.
-
 <br/>
 <br/>
 
@@ -24,19 +18,12 @@
 - A history is basically a redux state that is responsible for storing all the values that are present in the middle area and then it is used to render the history component which is basically a component that is responsible for rendering all the values that are present in the history state
 - There is also a mapping that is done based on the key of the element that has been pushed into the Redux State along with some default values and then it is used to render the history elements.
 
-# How to run the project ?
-
-- Clone the project
-- Run `npm install`
-- Run `npm start`
-- Go to `localhost:8080`
-- Enjoy
 
 # Tech stack used
 
 - React
 - Redux
-- React DnD (outdated but still used for the purpose of this project)
+- React DnD 
 - React Redux
 - React Redux Toolkit
 - Tailwind CSS
